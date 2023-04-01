@@ -21,4 +21,4 @@ if header != None:
         time.sleep(1)
         metadata = ack.get()
         print(row)
-        print("Data stream sent to topic and partition: " + metadata.topic, metadata.partition)
+        print("Data stream sent to topic : " + metadata.topic)

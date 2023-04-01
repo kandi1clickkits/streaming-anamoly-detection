@@ -6,8 +6,10 @@ import numpy as np
 import sys
 import time
 import os
+import warnings
+warnings.filterwarnings("ignore")
 
-model_path = os.path.abspath(r"model/finalized_model.pickle")
+model_path = os.path.abspath(r"model/model.pickle")
 
 with open(model_path, 'rb') as f:
     clf = pickle.load(f)
