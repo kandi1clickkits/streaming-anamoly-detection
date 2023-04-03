@@ -1,1 +1,1 @@
-# streaming-anamoly-detection
+# streaming-anomaly-detection
