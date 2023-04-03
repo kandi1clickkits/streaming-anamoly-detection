@@ -9,9 +9,12 @@ import os
 import warnings
 warnings.filterwarnings("ignore")
 
-model_path = os.path.abspath(r"model/model.pickle")
+#model_path = os.path.abspath(r".\model.pickle")
 
-with open(model_path, 'rb') as f:
+#with open(model_path, 'rb') as f:
+#    clf = pickle.load(f)
+
+with open('model.pickle', 'rb') as f:
     clf = pickle.load(f)
 
 bootstrap_servers = ['localhost:9092']
